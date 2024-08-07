@@ -1,0 +1,605 @@
+{
+  "totalRecords": 60,
+  "records": [
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuDUAX"
+      },
+      "Id": "a0O1O00000XYBuDUAX",
+      "Name": "Darphin",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuIUAX"
+      },
+      "Id": "a0O1O00000XYBuIUAX",
+      "Name": "FCUK",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuNUAX"
+      },
+      "Id": "a0O1O00000XYBuNUAX",
+      "Name": "Rodin",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuSUAX"
+      },
+      "Id": "a0O1O00000XYBuSUAX",
+      "Name": "Stila",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuXUAX"
+      },
+      "Id": "a0O1O00000XYBuXUAX",
+      "Name": "Demeter",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBucUAH"
+      },
+      "Id": "a0O1O00000XYBucUAH",
+      "Name": "Lock Fragrance",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuhUAH"
+      },
+      "Id": "a0O1O00000XYBuhUAH",
+      "Name": "Surratt Beauty",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBumUAH"
+      },
+      "Id": "a0O1O00000XYBumUAH",
+      "Name": "Girlactik Beauty",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBurUAH"
+      },
+      "Id": "a0O1O00000XYBurUAH",
+      "Name": "SENNA COSMETICS, INC.",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBuwUAH"
+      },
+      "Id": "a0O1O00000XYBuwUAH",
+      "Name": "Emani",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBv1UAH"
+      },
+      "Id": "a0O1O00000XYBv1UAH",
+      "Name": "Pop Beauty",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBv6UAH"
+      },
+      "Id": "a0O1O00000XYBv6UAH",
+      "Name": "Susan Posnick",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvBUAX"
+      },
+      "Id": "a0O1O00000XYBvBUAX",
+      "Name": "Bh Cosmetics",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvGUAX"
+      },
+      "Id": "a0O1O00000XYBvGUAX",
+      "Name": "Brush on Block",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvLUAX"
+      },
+      "Id": "a0O1O00000XYBvLUAX",
+      "Name": "JINsoon Nail Lacquer",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvQUAX"
+      },
+      "Id": "a0O1O00000XYBvQUAX",
+      "Name": "RMS Beauty",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn55&d=%2Fa%2F3b000000GdNb%2FhmvTzeux2rUkcaikm3RuaN9LFV17vb1RNWGH5EdtuM0&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvVUAX"
+      },
+      "Id": "a0O1O00000XYBvVUAX",
+      "Name": "Becca Cosmetics",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvaUAH"
+      },
+      "Id": "a0O1O00000XYBvaUAH",
+      "Name": "BY TERRY",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn4w&d=%2Fa%2F3b000000GdNR%2FEjS1V3vjpdVBPgt3EwLkP02mRpighcaKeUqe9fCYX1s&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvfUAH"
+      },
+      "Id": "a0O1O00000XYBvfUAH",
+      "Name": "Glamglow",
+      "OwnerId": "0053b00000C75e8AAB",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvkUAH"
+      },
+      "Id": "a0O1O00000XYBvkUAH",
+      "Name": "Kevyn Aucoin Cosmetics",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn4y&d=%2Fa%2F3b000000GdNT%2FPfssWeBHh6lTtliwSwtB8an5xhRf3plYpEbXxq3qYdw&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvpUAH"
+      },
+      "Id": "a0O1O00000XYBvpUAH",
+      "Name": "Pias Intercosmex (U.S.A.) Corporation",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvuUAH"
+      },
+      "Id": "a0O1O00000XYBvuUAH",
+      "Name": "Rite Aid Prestige Cosmetics",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBvzUAH"
+      },
+      "Id": "a0O1O00000XYBvzUAH",
+      "Name": "RMS Nail Polish Only",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYBw4UAH"
+      },
+      "Id": "a0O1O00000XYBw4UAH",
+      "Name": "Butter London",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYQUGUA5"
+      },
+      "Id": "a0O1O00000XYQUGUA5",
+      "Name": "Elvis & Elvin Inc",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYSliUAH"
+      },
+      "Id": "a0O1O00000XYSliUAH",
+      "Name": "Ellis Faas",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000XYSlnUAH"
+      },
+      "Id": "a0O1O00000XYSlnUAH",
+      "Name": "MALIN+GOETZ",
+      "OwnerId": "0051400000CDDthAAH",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000YeODuUAN"
+      },
+      "Id": "a0O1O00000YeODuUAN",
+      "Name": "All Manufacturers",
+      "OwnerId": "0051400000BbqaYAAR",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000ap9rbUAA"
+      },
+      "Id": "a0O1O00000ap9rbUAA",
+      "Name": "Replica",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000apZrgUAE"
+      },
+      "Id": "a0O1O00000apZrgUAE",
+      "Name": "Dr Jart",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000fWLwMUAW"
+      },
+      "Id": "a0O1O00000fWLwMUAW",
+      "Name": "Nars",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000gAhRFUA0"
+      },
+      "Id": "a0O1O00000gAhRFUA0",
+      "Name": "Eve Lom",
+      "OwnerId": "0053b00000BU1o9AAD",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn4x&d=%2Fa%2F3b000000GdNS%2FKoVZL3Q4xyIRxFBUWGw3io97u7CmhArqdGEgx6Nc3Ik&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000gAhRKUA0"
+      },
+      "Id": "a0O1O00000gAhRKUA0",
+      "Name": "Korres",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O1O00000gB1lHUAS"
+      },
+      "Id": "a0O1O00000gB1lHUAS",
+      "Name": "The Organic Pharmacy",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000fQrZyEAK"
+      },
+      "Id": "a0O3b00000fQrZyEAK",
+      "Name": "Diptyque",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn4z&d=%2Fa%2F3b000000GdNV%2FolTGuzOQ._CP5qExEpdjcJ_o8QlPKNt0eNlRwSOP07U&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000fQra3EAC"
+      },
+      "Id": "a0O3b00000fQra3EAC",
+      "Name": "Atelier Cologne",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000fQsFsEAK"
+      },
+      "Id": "a0O3b00000fQsFsEAK",
+      "Name": "Ildi Pekar",
+      "OwnerId": "0053b00000BU1o9AAD",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn54&d=%2Fa%2F3b000000GdNa%2F18pzuKthZJ2UVav43RYJJDTtvf8ptj2FtvXBZ.U3ITA&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000fQtUNEA0"
+      },
+      "Id": "a0O3b00000fQtUNEA0",
+      "Name": "Shiva Rose",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000ffNaCEAU"
+      },
+      "Id": "a0O3b00000ffNaCEAU",
+      "Name": "Jillian Dempsey",
+      "OwnerId": "0053b00000C75e8AAB",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000ffNzbEAE"
+      },
+      "Id": "a0O3b00000ffNzbEAE",
+      "Name": "Maison Margiela",
+      "OwnerId": "0053b00000C75e8AAB",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn50&d=%2Fa%2F3b000000GdNW%2FL_GyK4pKFs33bFMZOnhmE60A9SlvcRcg_cojGHaMcFQ&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000hyjBzEAI"
+      },
+      "Id": "a0O3b00000hyjBzEAI",
+      "Name": "La Bouche Rouge Paris",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000hym7GEAQ"
+      },
+      "Id": "a0O3b00000hym7GEAQ",
+      "Name": "Byredo",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn4v&d=%2Fa%2F3b000000GdNQ%2FIp8vmJRQnsgJCemE2NlzNhOxOzx_jO58Jqndm4xm6xQ&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000lCFmREAW"
+      },
+      "Id": "a0O3b00000lCFmREAW",
+      "Name": "Smashbox",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn59&d=%2Fa%2F3b000000GdNU%2FtRPwgEOZjMQB11DPqFazWbGeQSugD90hdZE7HH5vX7M&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000nXHV0EAO"
+      },
+      "Id": "a0O3b00000nXHV0EAO",
+      "Name": "Imarais Beauty",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000oFtP6EAK"
+      },
+      "Id": "a0O3b00000oFtP6EAK",
+      "Name": "The Maker",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p4EoOEAU"
+      },
+      "Id": "a0O3b00000p4EoOEAU",
+      "Name": "R+Co",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p4EoPEAU"
+      },
+      "Id": "a0O3b00000p4EoPEAU",
+      "Name": "R+Co Bleu",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p4F4CEAU"
+      },
+      "Id": "a0O3b00000p4F4CEAU",
+      "Name": "ARAMIS",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p4F4DEAU"
+      },
+      "Id": "a0O3b00000p4F4DEAU",
+      "Name": "ESTEE LAUDER",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p4F4HEAU"
+      },
+      "Id": "a0O3b00000p4F4HEAU",
+      "Name": "AERIN",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p7xfAEAQ"
+      },
+      "Id": "a0O3b00000p7xfAEAQ",
+      "Name": "Susanne Kaufmann",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn5E&d=%2Fa%2F3b000000GdNf%2FTr7MvVo7S0.E2Xjs69DMT5IhSFys3RoLHNHNFD19KSY&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p7zqKEAQ"
+      },
+      "Id": "a0O3b00000p7zqKEAQ",
+      "Name": "Bobbi Brown",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000p80IJEAY"
+      },
+      "Id": "a0O3b00000p80IJEAY",
+      "Name": "Bumble and Bumble",
+      "OwnerId": "0051400000BAtLYAA1",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000pY1wOEAS"
+      },
+      "Id": "a0O3b00000pY1wOEAS",
+      "Name": "Smashbox x Aveda",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales--c.na104.content.force.com/sfc/dist/version/download/?oid=00D30000001G9fh&ids=0683b00000KVn59&d=%2Fa%2F3b000000GdNU%2FtRPwgEOZjMQB11DPqFazWbGeQSugD90hdZE7HH5vX7M&asPdf=false"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0O3b00000pY2vqEAC"
+      },
+      "Id": "a0O3b00000pY2vqEAC",
+      "Name": "ReVive",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": "https://beautyfashionsales.lightning.force.com/lightning/o/ContentDocument/home"
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0OO8000001lyRZMAY"
+      },
+      "Id": "a0OO8000001lyRZMAY",
+      "Name": "Test Manufacture (please Ignore)",
+      "OwnerId": "005O8000006y0g1IAA",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0OO8000001qBZuMAM"
+      },
+      "Id": "a0OO8000001qBZuMAM",
+      "Name": "Kylie",
+      "OwnerId": "005O8000007BbppIAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0ORb0000000uwfMAA"
+      },
+      "Id": "a0ORb0000000uwfMAA",
+      "Name": "Re-Nutriv",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0ORb000000BQ0nMAG"
+      },
+      "Id": "a0ORb000000BQ0nMAG",
+      "Name": "Victoria Beckham Beauty",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    },
+    {
+      "attributes": {
+        "type": "Manufacturer__c",
+        "url": "/services/data/v56.0/sobjects/Manufacturer__c/a0ORb000000QzsfMAC"
+      },
+      "Id": "a0ORb000000QzsfMAC",
+      "Name": "LOccitane",
+      "OwnerId": "00530000005AdvsAAC",
+      "Manufacturer_Logo__c": null
+    }
+  ]
+}
