@@ -3,9 +3,10 @@ const axios = require('axios');
 
 const app = express();
 const port = 3001;
+const cors = require('cors')
+app.use(cors())
 
-
-const accessToken = '00DO8000001NKS5!AQEAQLArXogdDdP0QhHPKufRWSci3sih.wFTzYimecQS5zPzUvKKMnmKXOpx7A38AGqMjpv0eVVhsr2N7dUd1CZuQVbrYD8u';
+const accessToken = '00DO8000001NKS5!AQEAQAVf_Vov3q4CliswR0BqoLgQ.Er3BFZlzgtiY2dTQMM8JEqvPkv.YZwqigqT3fxC66L2OMdCmP0dh8Disg7xz_jAX3Ou';
 const instanceUrl = 'https://beautyfashionsales--dx.sandbox.my.salesforce.com';
 const email = 'staff@designersx.com.dx';
 const password = 'DesignersX575';
@@ -19,7 +20,7 @@ app.get('/api/accounts', async (req, res) => {
         'Authorization': `Bearer ${accessToken}`
       },
       params: {
-        q: `SELECT Id, Name, Account_ID__c, AccountNumber, OwnerId FROM Account WHERE ownerId = '0053b00000DgAVKAA3'`
+        q: `SELECT Id, Name, Account_ID__c, AccountNumber, OwnerId FROM Account`
       }
     });
 
