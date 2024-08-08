@@ -3,37 +3,19 @@ const axios = require('axios');
 
 const app = express();
 const port = 3001;
+
+const router = require('./routes/routes')
+
 const cors = require('cors')
 app.use(cors())
 
-const accessToken = '00DO8000001NKS5!AQEAQAVf_Vov3q4CliswR0BqoLgQ.Er3BFZlzgtiY2dTQMM8JEqvPkv.YZwqigqT3fxC66L2OMdCmP0dh8Disg7xz_jAX3Ou';
-const instanceUrl = 'https://beautyfashionsales--dx.sandbox.my.salesforce.com';
 const email = 'staff@designersx.com.dx';
 const password = 'DesignersX575';
 const consumerKey = '3MVG99OxTyEMCQ3hqNYB7_tfGjDs0Ap6mq7R1pESCy3N06VqumLGSh7Kk3iiz5f7H8V0cSlKLa6F6X8QTgmeJ';
 const consumerSecret = '6D8C3C2BA86CA575F74EB0F9FC7237CD12D97AEEFBEE28DF87F1AC49A96E1464';
+app.use('/api' , router)
 
-app.get('/api/accounts', async (req, res) => {
-  try {
-    const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
-      headers: {
-        'Authorization': `Bearer ${accessToken}`
-      },
-      params: {
-        q: `SELECT Id, Name, Account_ID__c, AccountNumber, OwnerId FROM Account`
-      }
-    });
 
-    res.json({
-      totalRecords: response.data.totalSize,
-      records: response.data.records ,
-      // nexturl: response.data.nextUrl
-    });
-  } catch (error) {
-    console.error('Error fetching accounts: ', error);
-    res.status(500).json({ error: 'Failed to fetch accounts' });
-  }
-});
 
 
 // login api 
@@ -68,48 +50,7 @@ app.post('/api/login', async (req, res) => {
 
 })
 
-// Manufacture ke lie 
-app.get('/api/manufacture', async (req, res) => {
-  try {
-    const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
-      headers: {
-        'Authorization': `Bearer ${accessToken}`
-      },
-      params: {
-        q: `SELECT Id, Name FROM Manufacturer__c`
-      }
-    });
 
-    res.json({
-      totalRecords: response.data.totalSize,
-      records: response.data.records
-    });
-  } catch (error) {
-    console.error('Error fetching manufacturer data: ', error);
-    res.status(500).json({ error: 'Failed to fetch manufacturer data' });
-  }
-});
-// Order-type ke lie 
-app.get('/api/order-type', async (req, res) => {
-  try {
-    const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
-      headers: {
-        'Authorization': `Bearer ${accessToken}`
-      },
-      params: {
-        q: `SELECT Id, Type, Values, Name FROM Order`
-      }
-    });
-
-    res.json({
-      totalRecords: response.data.totalSize,
-      records: response.data.records
-    });
-  } catch (error) {
-    console.error('Error fetching manufacturer data: ', error);
-    res.status(500).json({ error: 'Failed to fetch manufacturer data' });
-  }
-});
 
 
 
