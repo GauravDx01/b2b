@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
-const accessToken = "00DO8000001NKS5!AQEAQIY28RJymfKIuxwWfq6.mgk1Qa6Rk.fkgWufAzdsf6CDGzDyhQRy68gmSoLxQHUuJ9tmBb9ER7x.jGHDbCFUnNxOzl9.";
+const accessToken = "00DO8000001NKS5!AQEAQPOaNmoPVRTfvat8zvi6P3ptlF1LXQkND0WYMsDVxTiR4VjzEdz1Yx8sDWpCyPzRom_d.1H0lsg5OgsLokKeytzHE15L";
 const instanceUrl = 'https://beautyfashionsales--dx.sandbox.my.salesforce.com';
 
 router.get('/accounts', async (req, res) => {
@@ -47,16 +47,17 @@ router.get('/manufacture/:id', async (req, res) => {
       res.status(500).json({ error: 'Failed to fetch manufacturer data' });
     }
   });
-  router.get('/products', async (req, res) => {
+  router.get('/products/:manufacturer_name', async (req, res) => {
+    let {manufacturer_name} = req.params
     try {
       const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
         headers: {
           'Authorization': `Bearer ${accessToken}`
         },
         params: {
-          q: `SELECT Id, Name, Image_On_File__c, ProductUPC__c, ProductCode, Retail_Price__c, Product_Image__c, Tester_Margin__c, Category__c, Cost__c ,  	webkul_es_mage__Product_image__c ,Ship_Date__c , CreatedById
+          q: `SELECT Id, Name, Image_On_File__c, ProductUPC__c, ProductCode, Retail_Price__c, Product_Image__c, Tester_Margin__c, Category__c, Cost__c , Min_Order_QTY__c ,  	webkul_es_mage__Product_image__c ,Ship_Date__c , CreatedById
 FROM Product2 
-WHERE ManufacturerName__c = 'RMS Beauty' 
+WHERE ManufacturerName__c = '${manufacturer_name}' 
 AND IsActive = true 
 AND Category__c != 'PREORDER'`  
         }
@@ -74,7 +75,88 @@ AND Category__c != 'PREORDER'`
       });
     }
   });
+  router.get('/products/preOrder/:manufacturer_name', async (req, res) => {
+    let {manufacturer_name} = req.params
+    try {
+      const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
+        headers: {
+          'Authorization': `Bearer ${accessToken}`
+        },
+        params: {
+          q: `SELECT Id, Name, Image_On_File__c, ProductUPC__c, ProductCode, Retail_Price__c, Product_Image__c, Tester_Margin__c, Min_Order_QTY__c ,  Category__c, Cost__c ,  	webkul_es_mage__Product_image__c ,Ship_Date__c , CreatedById
+FROM Product2 
+WHERE ManufacturerName__c = '${manufacturer_name}' 
+AND IsActive = true 
+AND Category__c = 'PREORDER'`  
+        }
+      });
   
+      res.json({
+        totalRecords: response.data.totalSize,
+        records: response.data.records
+      });
+    } catch (error) {
+      console.error('Error fetching products data:', error.response ? error.response.data : error.message);
+      res.status(500).json({ 
+        error: 'Failed to fetch products data', 
+        details: error.response ? error.response.data : error.message || 'No details available' 
+      });
+    }
+  });
+// fetch product unit price 
+router.get('/products/unitprice/:productName', async (req, res) => {
+  let {productName} = req.params
+  try {
+    const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
+      headers: {
+        'Authorization': `Bearer ${accessToken}`
+      },
+      params: {
+        q: `select id , UnitPrice  from PricebookEntry where Name = '${productName}' `  
+      }
+    });
+
+    res.json({
+      totalRecords: response.data.totalSize,
+      records: response.data.records
+    });
+  } catch (error) {
+    console.error('Error fetching products data:', error.response ? error.response.data : error.message);
+    res.status(500).json({ 
+      error: 'Failed to fetch products data', 
+      details: error.response ? error.response.data : error.message || 'No details available' 
+    });
+  }
+});
+
+
+
+// margin calculate krne ke  lie 
+
+router.get('/products/margin/:accountId/:manufacturer_name', async (req, res) => {
+  let {accountId , manufacturer_name} = req.params
+  try {
+    const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
+      headers: {
+        'Authorization': `Bearer ${accessToken}`
+      },
+      params: {
+        q: `SELECT id , Margin__c  from Account_Manufacturer__c  where ManufacturerName__c = '${manufacturer_name}'   and AccountId__c = '${accountId}'`  
+      }
+    });
+
+    res.json({
+      totalRecords: response.data.totalSize,
+      records: response.data.records
+    });
+  } catch (error) {
+    console.error('Error fetching products data:', error.response ? error.response.data : error.message);
+    res.status(500).json({ 
+      error: 'Failed to fetch products data', 
+      details: error.response ? error.response.data : error.message || 'No details available' 
+    });
+  }
+});
   
   module.exports = router;
   
