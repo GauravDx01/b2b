@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
-const accessToken = "00DO8000001NKS5!AQEAQPOaNmoPVRTfvat8zvi6P3ptlF1LXQkND0WYMsDVxTiR4VjzEdz1Yx8sDWpCyPzRom_d.1H0lsg5OgsLokKeytzHE15L";
+const accessToken = "00DO8000001NKS5!AQEAQLHXMOF_g2gGDF4PIeItwnGBVpYAuIQCbSXuxVou4Wp1MJcAR1AYVgbLuubx_W9Ouy0fqpGuWOoEEWlkNA8wA4pJZSCS";
 const instanceUrl = 'https://beautyfashionsales--dx.sandbox.my.salesforce.com';
 
 router.get('/accounts', async (req, res) => {
@@ -156,6 +156,31 @@ router.get('/products/margin/:accountId/:manufacturer_name', async (req, res) =>
       details: error.response ? error.response.data : error.message || 'No details available' 
     });
   }
+});
+// get ordered product
+router.get('/ordered-product/:manufacturer_name/:prodcut_id', async (req, res) => {
+  let {prodcut_id , manufacturer_name} = req.params
+try {
+  const response = await axios.get(`${instanceUrl}/services/data/v56.0/query`, {
+    headers: {
+      'Authorization': `Bearer ${accessToken}`
+    },
+    params: {
+      q: `SELECT id ,  Name, Image_On_File__c, ProductUPC__c, ProductCode, Retail_Price__c, Product_Image__c, Tester_Margin__c, Min_Order_QTY__c ,  Category__c, Cost__c ,  	webkul_es_mage__Product_image__c ,Ship_Date__c , CreatedById from Product2  where ManufacturerName__c = '${manufacturer_name}'   and Id = '${prodcut_id}'`  
+    }
+  });
+
+  res.json({
+    totalRecords: response.data.totalSize,
+    records: response.data.records
+  });
+} catch (error) {
+  console.error('Error fetching products data:', error.response ? error.response.data : error.message);
+  res.status(500).json({ 
+    error: 'Failed to fetch products data', 
+    details: error.response ? error.response.data : error.message || 'No details available' 
+  });
+}
 });
   
   module.exports = router;
